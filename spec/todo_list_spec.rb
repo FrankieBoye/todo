@@ -7,4 +7,13 @@ describe Todo do
     end
   end
 
+  describe '#list' do
+    it 'can list the contents of the array' do
+      subject.add("milk")
+      subject.add("eggs")
+      expect(subject.list).to eq ["milk", "eggs"]
+    end
+  end
+
+
 end

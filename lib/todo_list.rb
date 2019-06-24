@@ -1,11 +1,16 @@
 class Todo
 
   def initialize
-    @todolist = []
+    @todo = []
   end
 
   def add(string)
-    @todolist << string
+    @todo << string
   end
 
+  def list
+    @todo.each do |x|
+    puts x
+  end
+end
 end
