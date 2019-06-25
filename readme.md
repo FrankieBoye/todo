@@ -9,9 +9,22 @@ A simple Ruby todo list.
 Then type:
 - IRB
 - require './lib/todo_list'
-- todo_list = Todo.new
-- todo_list.add("item")
+- todo = Todo.new
 
-- todo_list.list
+To add an item:
 
-![image](https://user-images.githubusercontent.com/44870179/60015320-1771f980-967b-11e9-9066-4732ba7775e0.png)
+- todo.add("item")
+
+To delete an item:
+
+- todo.delete("item")
+
+To display all items:
+
+- todo.list
+
+To clear the list:
+
+- todo.clear
+
+![image](https://user-images.githubusercontent.com/44870179/60088670-f1aa2a80-9736-11e9-8d19-f8fb1e44375c.png)
