@@ -1,5 +1,7 @@
-class Todo
+# frozen_string_literal: true
 
+# class todo
+class Todo
   def initialize
     @todo = []
   end
@@ -9,15 +11,17 @@ class Todo
   end
 
   def delete(string)
-    @todo -=[string]
+    @todo -= [string]
   end
 
   def list
     @todo.each do |x|
-    puts x
+      puts x
+    end
   end
 
-
-
-end
+  def clear
+    @todo = []
+  end
+  
 end
