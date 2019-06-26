@@ -1,29 +1,27 @@
-## Todo
-
-A simple Ruby todo list.
+### A simple Ruby To-do list, created just for practice
 
 - Can add, list and delete contents
 - Application run through IRB
 - Clone repo and run 'bundle install'
 
-Then type:
+### Then type:
 - IRB
 - require './lib/todo_list'
 - todo = Todo.new
 
-To add an item:
+### To add an item:
 
 - todo.add("item")
 
-To delete an item:
+### To delete an item:
 
 - todo.delete("item")
 
-To display all items:
+### To display all items:
 
 - todo.list
 
-To clear the list:
+### To clear the list:
 
 - todo.clear
 
